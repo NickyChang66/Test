@@ -2,6 +2,7 @@ public class Calculator {
 
     private String  name = "Casio";
     private int calculationCount;
+    private double results = -1.0;
 
     public int add(int a, int b) {
         return a + b;
