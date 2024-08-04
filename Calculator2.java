@@ -3,7 +3,7 @@ public class Calculator {
     private String  name = "Casio";
     private int calculationCount;
     private double results = -1.0;
-    private int calculationCoune1;
+    private int boolean status =true;
 
     public int add(int a, int b) {
         return a + b;
